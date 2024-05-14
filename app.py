@@ -12,7 +12,7 @@ def getLLamaresponse(input_text,no_words,blog_style):
                         config={'max_new_tokens':256,
                                 'temperature':0.01})
     
-    ## Prompt template
+    ## Prompt template!!
 
     template="""
     Write a blog for {blog_style} job profile for a topic {input_text} 
